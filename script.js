@@ -138,7 +138,7 @@ function onClickCheckBox(checkbox){
         // console.log(selectedRow.childNodes[1].nextElementSibling);
         // console.log(valu);
         deleteButton.addEventListener("click",function(){
-            alert("Do you want to delete Student "+vvalu.split(' ')[1]) ;
+            alert("Do you want to delete Student "+valu.split(' ')[1]) ;
             selectedRow.remove();
             alert("Deleted Student "+valu.split(' ')[1]) ;
         });
