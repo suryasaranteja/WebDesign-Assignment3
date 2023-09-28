@@ -1,0 +1,38 @@
+#myTable input {
+	margin-left: 5px;
+}
+
+#myTable {
+	border:2px solid green;
+	border-collapse: collapse;
+	margin: 30px 30px 20px 40px;
+	width: 80%;
+}
+#myTable td, th {
+	border:1px solid green;
+	padding: 5px;
+}
+#myTable th {
+	color: #fff;
+	background-color: #a7c942;
+}
+/* #button {
+	color:#fff;
+	background-color: orange;
+	border-radius: 3px;
+	border:2px solid orange;
+	margin-left: 180px;
+} */
+#button1{
+	margin-left: 180px;
+	color:black;
+	background-color: gray;
+	border-radius: 3px;
+	border:2px solid gray;
+}
+#button1[disabled] {
+	border: 1px solid rgb(135, 129, 129);
+	background-color: rgb(148, 142, 142);
+	/* color:#fff; */
+	cursor: not-allowed;
+}
